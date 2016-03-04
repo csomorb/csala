@@ -1,0 +1,12 @@
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.no_decoration:hover{
+	text-decoration: none;
+}
+
+.no_decoration:link{
+	text-decoration: none;
+}
