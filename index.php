@@ -40,6 +40,7 @@
 	<script src="./script/galleri.js"></script>
 	<link rel="stylesheet" href="./css/gallery.css">
 	<!-- fin Galery **************************************************************-->	
+	
 </head>
 <body>
 
