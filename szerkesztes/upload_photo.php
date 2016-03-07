@@ -1,7 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$cim = test_input($_POST["cim"]);
-	$alt = "csendelet";
+	$alt = test_input($_POST["alt"]);
+	$desc = nl2br(test_input($_POST["desc"]));
 	$cat = test_input($_POST["cat"]);
 	/*Recherche du dernier nom disponible*/
 	$reponse = $bdd->query("SELECT * FROM image ORDER BY id DESC");
@@ -18,8 +19,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	echo $msg;
 	/*Récupérer la hauteur et la largeur*/
 	list($width, $height, $type, $attr) = getimagesize('../img/'.$nom_fichier);
-	/*Ajout des données à la bdd*/
-	$req = $bdd->prepare('INSERT INTO image(id,nom, cat, largeur, hauteur, cim, alt) VALUES(:id, :nom, :cat, :largeur, :hauteur, :cim, :alt)');
+	$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$req = $bdd->prepare("INSERT INTO image (id, nom, cat, largeur, hauteur, cim, alt, descr) VALUES (:id, :nom, :cat, :largeur, :hauteur, :cim, :alt, :descr)");
 	$req->execute(array(
 	'id' => $id,
     'nom' => $nom_fichier,
@@ -27,6 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     'hauteur' => $height,
     'cim' => $cim,
     'alt' => $alt,
+	'descr' => $desc,
 	'cat' => $cat
     ));
 }
