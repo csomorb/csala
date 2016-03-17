@@ -49,7 +49,7 @@
 			<a href="tajkep_kt.php" type="button" class="btn btn-primary festmenyek_all_all" id="tajkep_kt">Képpek törlése</a>
 			<a href="tajkep_km.php" type="button" class="btn btn-primary festmenyek_all_all" id="tajkep_km">Képpek modositása</a>
 		</div>
-		<a href="#" id="egyeb_m" class="festmenyek_all"><h3>Egyéb szerkesztése<h3></a>
+		<a href="#" id="egyeb_m" class="festmenyek_all"><h3>Egyéb szerkesztése</h3></a>
 		<div id="egyeb_s">
 			<a href="egyeb_kh.php" type="button" class="btn btn-primary festmenyek_all_all" id="egyeb_kh">Kép hozzáadása</a>	
 			<a href="egyeb_kt.php" type="button" class="btn btn-primary festmenyek_all_all" id="egyeb_kt">Képpek törlése</a>
@@ -63,10 +63,12 @@
 			<a href="vendegkonyv_t.php" type="button" class="btn btn-primary" id="egyeb_kt">Bejegyzések törlése</a>
 </div>
 <a href="#" id="media_m"><h2>Média szerkesztése</h2></a>
+	<div id="media_s">
+		<a href="media_ch.php" type="button" class="btn btn-primary">Cikk hozzàadàs</a>
+		<a href="media_vh.php" type="button" class="btn btn-primary">Video hozzàadàs</a>
+	</div>
 <a href="#" id="jialitasok_m"><h2>Kiàlitások szerkesztése</h2></a>
 </div>
-</body>
-</html>
 <script>
 $(document).ready(function(){
 	function cacher(nom_cat_a_pas_casher){
@@ -153,3 +155,7 @@ $(document).ready(function(){
 //	$("#csendelet_s").hide();
 });
 </script>
+
+</body>
+</html>
+
