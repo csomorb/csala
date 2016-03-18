@@ -20,6 +20,8 @@
 	<script src="../script/plugins/canvas-to-blob.min.js" type="text/javascript"></script>
 	<script src="../script/fileinput.min.js" type="text/javascript"></script>
 	<!-- ******************* FILE UPLOAD -->
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 </head>
 <body>
 <?php
