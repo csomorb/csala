@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	$upload1 = upload('photo','../img/'.$nom_fichier,FALSE, array('png','jpg','jpeg','JPG','JPEG','PNG') );
 	if ($upload1) $msg = "<div class=\"alert alert-success\"><strong>Sikerült!</strong> Sikeres volt a kép feltöltés</div><a type=\"button\" class=\"btn btn-info\" href=\"index.php\">Vissza a főmenühöz</a>";
 	else $msg = "<div class=\"alert alert-danger\">Echèc de l'upload de l'image</div>";
-	if (!fct_redim_image(1200,0,'','','../img/',$nom_fichier)) $msg.=" echec du redimentionnement de l'image pour le 1200";
+	if (!fct_redim_image(1200,0,'','','../img/',$nom_fichier)) $msg.=""; //échec du redimentionnement 1200
 	if (!fct_redim_image(250,0,'','m_'.$nom_fichier,'../img/',$nom_fichier)) $msg.=" echec du redimentionnement de l'image pour le 250";
 	echo $msg;
 	/*Récupérer la hauteur et la largeur*/

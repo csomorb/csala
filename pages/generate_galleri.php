@@ -7,6 +7,7 @@ Codes catégories :
 	4: onarckép
 	5: verskép
 	6: egyéb
+	7: média
 */
 function generer_galleri($code_categorie){
 	$galleri = "<div class=\"my-gallery\" itemscope itemtype=\"http://schema.org/ImageGallery\">\n";

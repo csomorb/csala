@@ -67,7 +67,12 @@
 		<a href="media_ch.php" type="button" class="btn btn-primary">Cikk hozzàadàs</a>
 		<a href="media_vh.php" type="button" class="btn btn-primary">Video hozzàadàs</a>
 	</div>
-<a href="#" id="jialitasok_m"><h2>Kiàlitások szerkesztése</h2></a>
+<a href="#" id="kialitas_m"><h2>Kiàlitások szerkesztése</h2></a>
+	<div id="kialitas_s">
+		<a href="kialitas_h.php" type="button" class="btn btn-primary">Kiàlitàs hozzàadàs</a>
+		<a href="kialitas_t.php" type="button" class="btn btn-primary">Kiàlitàs törlése</a>
+		<a href="kialitas_m.php" type="button" class="btn btn-primary">Kiàlitàs modositàsa</a>
+	</div>
 </div>
 <script>
 $(document).ready(function(){
