@@ -1,0 +1,36 @@
+[05-Mar-2016 14:46:58 UTC] PHP Warning:  getimagesize(../img/2.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 20
+[05-Mar-2016 14:46:58 UTC] PHP Stack trace:
+[05-Mar-2016 14:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:0
+[05-Mar-2016 14:46:58 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:3
+[05-Mar-2016 14:46:58 UTC] PHP   3. getimagesize() /home/ubuntu/workspace/szerkesztes/upload_photo.php:20
+[05-Mar-2016 14:58:14 UTC] PHP Warning:  getimagesize(../img/2.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 20
+[05-Mar-2016 14:58:14 UTC] PHP Stack trace:
+[05-Mar-2016 14:58:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:0
+[05-Mar-2016 14:58:14 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kh.php:3
+[05-Mar-2016 14:58:14 UTC] PHP   3. getimagesize() /home/ubuntu/workspace/szerkesztes/upload_photo.php:20
+[02-Jun-2016 07:26:22 UTC] PHP Fatal error:  Call to undefined function generer_upload_photo() in /home/ubuntu/workspace/szerkesztes/media_ch.php on line 21
+[02-Jun-2016 07:26:22 UTC] PHP Stack trace:
+[02-Jun-2016 07:26:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/media_ch.php:0
+[02-Jun-2016 07:28:05 UTC] PHP Warning:  getimagesize(../img/4.): failed to open stream: No such file or directory in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 21
+[02-Jun-2016 07:28:05 UTC] PHP Stack trace:
+[02-Jun-2016 07:28:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/media_ch.php:0
+[02-Jun-2016 07:28:05 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/media_ch.php:3
+[02-Jun-2016 07:28:05 UTC] PHP   3. getimagesize() /home/ubuntu/workspace/szerkesztes/upload_photo.php:21
+[02-Jun-2016 07:28:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'descr' in 'field list'' in /home/ubuntu/workspace/szerkesztes/upload_photo.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/szerkesztes/upload_photo.php(33): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/szerkesztes/media_ch.php(3): include('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 33
+[02-Jun-2016 07:41:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'descr' in 'field list'' in /home/ubuntu/workspace/szerkesztes/upload_photo.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/szerkesztes/upload_photo.php(33): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/szerkesztes/media_ch.php(3): include('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 33
+[02-Jun-2016 07:43:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'descr' in 'field list'' in /home/ubuntu/workspace/szerkesztes/upload_photo.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/szerkesztes/upload_photo.php(33): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/szerkesztes/media_ch.php(3): include('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 33
