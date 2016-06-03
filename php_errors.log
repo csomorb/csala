@@ -49,3 +49,63 @@ Stack trace:
 #0 /home/ubuntu/workspace/szerkesztes/kialitas_h.php(22): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/szerkesztes/kialitas_h.php on line 22
+[03-Jun-2016 08:53:37 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:37 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:37 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:46
+[03-Jun-2016 08:53:37 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 08:53:37 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:37 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:37 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:47
+[03-Jun-2016 08:53:37 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 08:53:37 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:37 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:37 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:46
+[03-Jun-2016 08:53:37 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 08:53:37 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:37 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:37 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:47
+[03-Jun-2016 08:53:37 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 08:53:38 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:38 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:38 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:46
+[03-Jun-2016 08:53:38 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 08:53:38 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:38 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:38 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:47
+[03-Jun-2016 08:53:38 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 08:53:38 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:38 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:38 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:46
+[03-Jun-2016 08:53:38 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 08:53:38 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/szerkesztes/rest_h.php on line 127
+[03-Jun-2016 08:53:38 UTC] PHP Stack trace:
+[03-Jun-2016 08:53:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/rest_h.php:0
+[03-Jun-2016 08:53:38 UTC] PHP   2. fct_redim_image() /home/ubuntu/workspace/szerkesztes/rest_h.php:47
+[03-Jun-2016 08:53:38 UTC] PHP   3. strpos() /home/ubuntu/workspace/szerkesztes/rest_h.php:127
+[03-Jun-2016 09:49:39 UTC] PHP Warning:  unlink(../img/3.jpg): No such file or directory in /home/ubuntu/workspace/szerkesztes/delete_photo.php on line 12
+[03-Jun-2016 09:49:39 UTC] PHP Stack trace:
+[03-Jun-2016 09:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:0
+[03-Jun-2016 09:49:39 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:3
+[03-Jun-2016 09:49:39 UTC] PHP   3. unlink() /home/ubuntu/workspace/szerkesztes/delete_photo.php:12
+[03-Jun-2016 09:49:39 UTC] PHP Warning:  unlink(../img/m_3.jpg): No such file or directory in /home/ubuntu/workspace/szerkesztes/delete_photo.php on line 13
+[03-Jun-2016 09:49:39 UTC] PHP Stack trace:
+[03-Jun-2016 09:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:0
+[03-Jun-2016 09:49:39 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:3
+[03-Jun-2016 09:49:39 UTC] PHP   3. unlink() /home/ubuntu/workspace/szerkesztes/delete_photo.php:13
+[03-Jun-2016 09:49:39 UTC] PHP Warning:  unlink(../img/2.jpg): No such file or directory in /home/ubuntu/workspace/szerkesztes/delete_photo.php on line 12
+[03-Jun-2016 09:49:39 UTC] PHP Stack trace:
+[03-Jun-2016 09:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:0
+[03-Jun-2016 09:49:39 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:3
+[03-Jun-2016 09:49:39 UTC] PHP   3. unlink() /home/ubuntu/workspace/szerkesztes/delete_photo.php:12
+[03-Jun-2016 09:49:39 UTC] PHP Warning:  unlink(../img/m_2.jpg): No such file or directory in /home/ubuntu/workspace/szerkesztes/delete_photo.php on line 13
+[03-Jun-2016 09:49:39 UTC] PHP Stack trace:
+[03-Jun-2016 09:49:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:0
+[03-Jun-2016 09:49:39 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/csendelet_kt.php:3
+[03-Jun-2016 09:49:39 UTC] PHP   3. unlink() /home/ubuntu/workspace/szerkesztes/delete_photo.php:13

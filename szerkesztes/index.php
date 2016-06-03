@@ -57,6 +57,10 @@
 		</div>
 	</div>
 <a href="#" id="restauralasok_m"><h2>Restauràlàsok szerkesztése</h2></a>
+<div id="restauralasok_s">
+			<a href="rest_h.php" type="button" class="btn btn-primary" id="rest_h">Restauràlàsok hozzáadása</a>	
+			<a href="rest_t.php" type="button" class="btn btn-primary" id="rest_t">Restauràlàsok törlése</a>
+</div>
 <a href="#" id="vendegkonyv_m"><h2>Vendégkönyv szerkesztése</h2></a>
 <div id="vendegkonyv_s">
 			<a href="vendegkonyv_m.php" type="button" class="btn btn-primary" id="egyeb_kh">Bejegyzések modositàsa</a>	
