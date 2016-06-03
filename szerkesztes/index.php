@@ -70,6 +70,7 @@
 	<div id="media_s">
 		<a href="media_ch.php" type="button" class="btn btn-primary">Cikk hozzàadàs</a>
 		<a href="media_vh.php" type="button" class="btn btn-primary">Video hozzàadàs</a>
+		<a href="media_vct.php" type="button" class="btn btn-primary">Video/Cikk törlése</a>
 	</div>
 <a href="#" id="kialitas_m"><h2>Kiàlitások szerkesztése</h2></a>
 	<div id="kialitas_s">
