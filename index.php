@@ -55,23 +55,23 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="dropdown">
+        <li class="dropdown  <?php if ($folder == "festmenyek" || $folder == "csendelet" || $folder == "onarckep" || $folder == "portre" || $folder == "verskep" || $folder == "tajkep" || $folder == "egyeb" || $folder == "restauralasok") echo "active";  ?>">
           <a class="dropdown-toggle" data-toggle="dropdown" href="munkaim">Munkáim<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="festmenyek" <?php if ($folder == "festmenyek") { echo "class='active'"; } ?> >Festmények</a></li>
-			<li><a href="csendelet" <?php if ($folder == "csendelet") { echo "class='active'"; } ?> >&nbsp;&nbsp;Csendélet</a></li>
-			<li><a href="onarckep" <?php if ($folder == "onarckep") { echo "class='active'"; } ?> >&nbsp;&nbsp;Önarckép</a></li>
-            <li><a href="portre" <?php if ($folder == "portre") { echo "class='active'"; } ?> >&nbsp;&nbsp;Portré</a></li>
-			<li><a href="verskep" <?php if ($folder == "verskep") { echo "class='active'"; } ?> >&nbsp;&nbsp;Verskép</a></li>
-			<li><a href="tajkep" <?php if ($folder == "tajkep") { echo "class='active'"; } ?> >&nbsp;&nbsp;Tájkép</a></li>
-			<li><a href="egyeb" <?php if ($folder == "egyeb") { echo "class='active'"; } ?> >&nbsp;&nbsp;Egyéb</a></li>
-            <li><a href="restauralasok" <?php if ($folder == "restauralasok") { echo "class='active'"; } ?> >Restaurálások</a></li>
+            <li><a href="festmenyek">Festmények</a></li>
+			<li><a href="csendelet">&nbsp;&nbsp;Csendélet</a></li>
+			<li><a href="onarckep">&nbsp;&nbsp;Önarckép</a></li>
+            <li><a href="portre">&nbsp;&nbsp;Portré</a></li>
+			<li><a href="verskep">&nbsp;&nbsp;Verskép</a></li>
+			<li><a href="tajkep">&nbsp;&nbsp;Tájkép</a></li>
+			<li><a href="egyeb">&nbsp;&nbsp;Egyéb</a></li>
+            <li><a href="restauralasok">Restaurálások</a></li>
           </ul>
         </li>
-        <li><a href="vendegkonyv" <?php if ($folder == "vendegkonyv") { echo "class='active'"; } ?> >Vendégkönyv</a></li>
-		<li><a href="media" <?php if ($folder == "media") { echo "class='active'"; } ?> >Média</a></li>
-        <li><a href="kialitasok" <?php if ($folder == "kialitasok") { echo "class='active'"; } ?> >Kiàlitások</a></li>
-		<li><a href="kapcsolat" <?php if ($folder == "kapcsolat") { echo "class='active'"; } ?> >Kapcsolat</a></li>
+        <li <?php if ($folder != "vendegkonyv")  { echo "class='sliding-middle-out'"; } ?> ><a  href="vendegkonyv" <?php if ($folder == "vendegkonyv") { echo "class='active'"; } ?> >Vendégkönyv</a></li>
+		<li <?php if ($folder != "media")  { echo "class='sliding-middle-out'"; } ?> ><a href="media" <?php if ($folder == "media") { echo "class='active'"; } ?> >Média</a></li>
+        <li <?php if ($folder != "kialitasok")  { echo "class='sliding-middle-out'"; } ?> ><a href="kialitasok" <?php if ($folder == "kialitasok") { echo "class='active'"; } ?> >Kiàlitások</a></li>
+		<li <?php if ($folder != "kapcsolat")  { echo "class='sliding-middle-out'"; } ?> ><a href="kapcsolat" <?php if ($folder == "kapcsolat") { echo "class='active'"; } ?> >Kapcsolat</a></li>
       </ul>
     </div>
   </div>

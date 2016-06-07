@@ -58,7 +58,7 @@ while ($donnees = $reponse->fetch()){
 }
 $reponse->closeCursor();
 ?>
-<button type="submit" class="btn btn-danger">Restauràlàsok törlése</button>
+<button type="submit" class="btn btn-danger">Kiàlitàsok törlése</button>
 </form>
 <br/>
 <?php

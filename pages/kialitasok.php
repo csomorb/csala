@@ -1,5 +1,5 @@
 <div class="container">
-    <script src="./script/map.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDAKE3DBNvCqgQ-Z-P-eIUr36JNQRbldmQ"></script>
     <h2 class="text-center">Kàlitàsok</h2>    
     <?php
 include('connect.php');
@@ -12,6 +12,8 @@ while ($donnees = $reponse->fetch()){
 		echo "<h3>".$donnees['cim']."</h3>\n";
 		echo "<img src=\"./img/".$donnees2['nom']."\" class=\"img-responsive margin_bottom_20\" alt=\"kiàlitàs\">";
 		echo "<div class=\"row\"><div class=\"col-sm-6\">Elso nap: ".$donnees['date_deb']." utolso nap: ".$donnees['date_fin']."<p>".$donnees['descr']."</p></div><div class=\"col-sm-6\">";
+		$today = date("Y-m-d");
+		if ($donnees['date_fin'] >= $today){
 		echo "<div id=\"googleMap".$donnees['id']."\" style=\"width:100%;height:380px;\"></div>";
 		//génération google map
 		?>
@@ -38,7 +40,7 @@ while ($donnees = $reponse->fetch()){
         </script>
 		
 <?php		
-		
+		}
 		echo "</div></div><hr/>\n";
 	
 }
