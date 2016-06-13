@@ -42,7 +42,7 @@
 	<!-- fin Galery **************************************************************-->	
 	
 </head>
-<body>
+<body  oncontextmenu="return false">
 
 
 <nav class="navbar">

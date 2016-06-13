@@ -63,6 +63,28 @@
 	width: 280px !important;
 }
 
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+.margin_bottom_20{
+	margin-bottom: 20px;
+}
+
+
 
 #map {
         height : 600px; /* IMPERATIF */

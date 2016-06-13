@@ -11,10 +11,10 @@ while ($donnees = $reponse->fetch()){
 		$donnees2 = $reponse2->fetch();
 		echo "<h3>".$donnees['cim']."</h3>\n";
 		echo "<img src=\"./img/".$donnees2['nom']."\" class=\"img-responsive margin_bottom_20\" alt=\"kiàlitàs\">";
-		echo "<div class=\"row\"><div class=\"col-sm-6\">Elso nap: ".$donnees['date_deb']." utolso nap: ".$donnees['date_fin']."<p>".$donnees['descr']."</p></div><div class=\"col-sm-6\">";
+		echo "<div class=\"row\"><div class=\"col-sm-6\"><p>".$donnees['descr']."</p></div><div class=\"col-sm-6\">";
 		$today = date("Y-m-d");
 		if ($donnees['date_fin'] >= $today){
-		echo "<div id=\"googleMap".$donnees['id']."\" style=\"width:100%;height:380px;\"></div>";
+		echo "<div id=\"googleMap".$donnees['id']."\" style=\"width:100%;height:380px;\" class=\"margin_bottom_20\"></div>";
 		//génération google map
 		?>
 		<script>
@@ -41,7 +41,7 @@ while ($donnees = $reponse->fetch()){
 		
 <?php		
 		}
-		echo "</div></div><hr/>\n";
+		echo "<p class=\"text_right\">Első nap: ".$donnees['date_deb']."<br/>Utolsó nap: ".$donnees['date_fin']."</p></div></div><hr/>\n";
 	
 }
 ?>

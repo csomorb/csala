@@ -1,12 +1,14 @@
 <div class="container">
+	<h1 class="text-center">Média</h1>
 <?php
 include('connect.php');
 $reponse = $bdd->query('SELECT * FROM media ORDER BY datum DESC');
 while ($donnees = $reponse->fetch()){
 	if(strcmp($donnees['type'],'cikk') != 0 ){
-		echo "<h3>".$donnees['nom']."</h3>\n";
-		echo "<div class=\"videoWrapper\">".$donnees['content']."</div>";
-		echo "\n<p>".$donnees['descr']."</p><hr/>\n";
+		echo "<h3 class=\"margin_bottom_20\">".$donnees['nom']."</h3>\n";
+		echo "<div class=\"videoWrapper margin_bottom_20\">".$donnees['content']."</div>";
+		echo "\n<p>".$donnees['descr']."</p>\n";
+		echo "\n<p class=\"text_right\">".$donnees['datum']."</p><hr/>\n";
 	}
 	else{
 		// on trouve l'image correspondant à l'id
@@ -14,8 +16,9 @@ while ($donnees = $reponse->fetch()){
 		$reponse2 = $bdd->query("SELECT * FROM image WHERE id = $id ");
 		$donnees2 = $reponse2->fetch();
 		echo "<h3>".$donnees['nom']."</h3>\n";
-		echo "<img src=\"./img/".$donnees2['nom']."\" class=\"img-responsive\" alt=\"cikk\">";
-		echo "\n<p>".$donnees['descr']."</p><hr/>\n";
+		echo "<img src=\"./img/".$donnees2['nom']."\" class=\"img-responsive margin_bottom_20\" alt=\"cikk\">";
+		echo "\n<p>".$donnees['descr']."</p>\n";
+		echo "\n<p class=\"text_right\">".$donnees['datum']."</p><hr/>\n";
 	}
 }
 ?>

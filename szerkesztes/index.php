@@ -6,12 +6,13 @@
     <script src="../script/jquery-2.2.1.min.js"></script>
 	<!-- Latest compiled JavaScript -->
 	<script src="../script/bootstrap.min.js"></script>
+	
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<!-- font Raleay-->
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<!-- css -->
-	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/szerkesztes.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -95,7 +96,7 @@
 	<div>
 		<a href="kialitas_h.php" type="button" class="btn btn-primary">Kiàlitàs hozzàadàs</a>
 		<a href="kialitas_t.php" type="button" class="btn btn-primary">Kiàlitàs törlése</a>
-		<a href="kialitas_m.php" type="button" class="btn btn-primary">Kiàlitàs modositàsa</a>
+	<!--	<a href="kialitas_m.php" type="button" class="btn btn-primary">Kiàlitàs modositàsa</a>-->
 	</div>
 </div>
 <script>

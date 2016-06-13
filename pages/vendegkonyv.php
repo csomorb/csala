@@ -56,7 +56,7 @@ function isRecaptchaValid($code, $ip = null)
 ?>
 <h1 class="text-center">Vendégkönyv</h1>
 <script src="https://www.google.com/recaptcha/api.js?hl=hu" async defer></script>
-<a href="#" id="new_post"><h3>Ùj bejegyzés</h3></a>
+<a href="#" id="new_post"  class="no_decoration"><h3>Ùj bejegyzés</h3></a>
 <div id="nv_post">
 <form role="form" action="vendegkonyv" method="post" accept-charset="UTF-8">
   <div class="form-group">
@@ -76,7 +76,7 @@ function isRecaptchaValid($code, $ip = null)
 <?php
 $reponse = $bdd->query("SELECT * FROM livre ORDER BY id DESC");
 while ($donnees = $reponse->fetch()){
-		echo "<p><span class=\"lead\">".$donnees['nom']."</span><br/>".$donnees['contenu']."<br/></p><p class=\"text-right\">".$donnees['date']."</p><br/>";
+		echo "<hr/><p><span class=\"lead\">".$donnees['nom']."</span><br/>".$donnees['contenu']."<br/></p><p class=\"text-right\">".$donnees['date']."</p><br/>";
 }
 $reponse->closeCursor();
 ?>
