@@ -121,3 +121,19 @@ Stack trace:
 [03-Jun-2016 11:56:13 UTC] PHP Stack trace:
 [03-Jun-2016 11:56:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/kialitas_m.php:0
 [03-Jun-2016 11:56:13 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/szerkesztes/kialitas_m.php:16
+[13-Jun-2016 10:00:57 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 133
+[13-Jun-2016 10:00:57 UTC] PHP Stack trace:
+[13-Jun-2016 10:00:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/kialitas_h.php:0
+[13-Jun-2016 10:00:57 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/kialitas_h.php:3
+[13-Jun-2016 10:00:57 UTC] PHP   3. fct_redim_image() /home/ubuntu/workspace/szerkesztes/upload_photo.php:17
+[13-Jun-2016 10:00:57 UTC] PHP Warning:  Division by zero in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 133
+[13-Jun-2016 10:00:57 UTC] PHP Stack trace:
+[13-Jun-2016 10:00:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/kialitas_h.php:0
+[13-Jun-2016 10:00:57 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/kialitas_h.php:3
+[13-Jun-2016 10:00:57 UTC] PHP   3. fct_redim_image() /home/ubuntu/workspace/szerkesztes/upload_photo.php:18
+[13-Jun-2016 10:00:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'largeur' cannot be null' in /home/ubuntu/workspace/szerkesztes/upload_photo.php:33
+Stack trace:
+#0 /home/ubuntu/workspace/szerkesztes/upload_photo.php(33): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/szerkesztes/kialitas_h.php(3): include('/home/ubuntu/wo...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 33

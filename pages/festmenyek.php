@@ -5,7 +5,7 @@ include('connect.php');
 $i = 0;
 $reponse = $bdd->query('SELECT * FROM categorie');
 while ($donnees = $reponse->fetch()){
-	if($donnees['id'] < 7){
+	if($donnees['id'] < 7 || $donnees['id'] > 9){
 		if ($i % $GLOBAL['nb_categorie_ligne'] === 0)
 			echo "<div class=\"row\">\n";
 		echo "\t<div class=\"col-sm-". 12/$GLOBAL['nb_categorie_ligne'] ." text-center\">\n";

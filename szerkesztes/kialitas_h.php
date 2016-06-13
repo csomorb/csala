@@ -48,27 +48,47 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   </div>
   <div class="form-group">
     <label for="cord">Helyszín:</label>
-    <input type="text" class="form-control" id="cord" required name="cord">
+    <input type="hidden" class="form-control" id="cord" required name="cord">
   </div>
+  <div id="map"></div>
   
   <button type="submit" class="btn btn-default" name="add" value="had">Hozzàadàs</button>
 </form>
 <br/><br/>
-  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDAKE3DBNvCqgQ-Z-P-eIUr36JNQRbldmQ"></script>
+<script>
   $(function() {
     $( "#datepicker" ).datepicker();
-	$( "#datepicker" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
-	$( "#datepicker2" ).datepicker();
-	$( "#datepicker2" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+	  $( "#datepicker" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+	  $( "#datepicker2" ).datepicker();
+	  $( "#datepicker2" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
   });
-  </script>
-  <script>
-$("#input-id").fileinput({
-	uploadLabel: "",
-	removeLabel: "Torlés",
-	browseLabel: "Kép vàlasztàs",
-	uploadClass: "display-none"
+  
+  $("#input-id").fileinput({
+  	uploadLabel: "",
+  	removeLabel: "Torlés",
+  	browseLabel: "Kép vàlasztàs",
+  	uploadClass: "display-none"
+  });
+  
+var myLatlng = new google.maps.LatLng(47.516111,19.076436);
+var mapOptions = {
+  zoom: 13,
+  center: myLatlng
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+// Place a draggable marker on the map
+var marker = new google.maps.Marker({
+    position: myLatlng,
+    map: map,
+    draggable:true
+});
+
+
+marker.addListener('dragend', function() {
+    document.getElementById('cord').value = marker.getPosition().lat() + ","+  marker.getPosition().lng() ;
 });
 </script>
 <?php

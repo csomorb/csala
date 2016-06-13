@@ -102,10 +102,16 @@ li a{
 }
 
 .navbar a{
-	color:#4b4b4b;
+	color: black;
 	
 }
 
 .navbar a .active{
-	color: black;
+	color: white;
 }
+/*
+body{
+	background: #330000;
+	color: white;
+	
+}*/

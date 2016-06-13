@@ -62,3 +62,9 @@
 .taille_checkbox{
 	width: 280px !important;
 }
+
+
+#map {
+        height : 600px; /* IMPERATIF */
+        width : 100%;
+}

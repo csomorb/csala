@@ -6,6 +6,6 @@ include("generer_form_update_photo.php");
   <h1>Csendélet - Kép modositàs</h1>
 
 <?php 
-generer_update(3);
+generer_update(2);
 include("foot.php");
 ?>

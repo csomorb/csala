@@ -3,9 +3,9 @@ include("head.php");
 include("update_photo.php");
 include("generer_form_update_photo.php");
 ?>
-  <h1>Egyéb - Kép modositàs</h1>
+  <h1>Aktok - Kép modositàs</h1>
 
 <?php 
-generer_update(11);
+generer_update(4);
 include("foot.php");
 ?>

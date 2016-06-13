@@ -6,6 +6,6 @@ include("generer_form_upload_photo.php");
   <h1>Önarckép - Kép hozzàadàsa</h1>
 
 <?php 
-generer_upload_photo("onarckep",4);
+generer_upload_photo("onarckep",6);
 include("foot.php");
 ?>

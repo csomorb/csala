@@ -6,6 +6,6 @@ include("generer_form_update_photo.php");
   <h1>Önarckép - Kép modositàs</h1>
 
 <?php 
-generer_update(4);
+generer_update(6);
 include("foot.php");
 ?>

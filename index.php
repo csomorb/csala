@@ -59,12 +59,14 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="munkaim">Munkáim<span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="festmenyek">Festmények</a></li>
-			<li><a href="csendelet">&nbsp;&nbsp;Csendélet</a></li>
-			<li><a href="onarckep">&nbsp;&nbsp;Önarckép</a></li>
-            <li><a href="portre">&nbsp;&nbsp;Portré</a></li>
-			<li><a href="verskep">&nbsp;&nbsp;Verskép</a></li>
-			<li><a href="tajkep">&nbsp;&nbsp;Tájkép</a></li>
-			<li><a href="egyeb">&nbsp;&nbsp;Egyéb</a></li>
+            <li><a href="portre">&nbsp;&nbsp;Portrék</a></li>
+			<li><a href="csendelet">&nbsp;&nbsp;Csendéletek</a></li>
+			<li><a href="tajkep">&nbsp;&nbsp;Tájképek</a></li>
+			<li><a href="aktok">&nbsp;&nbsp;Aktok</a></li>
+			<li><a href="verskep">&nbsp;&nbsp;Versképek</a></li>
+			<li><a href="onarckep">&nbsp;&nbsp;Önarcképek</a></li>
+            <li><a href="onarckep">&nbsp;&nbsp;Másolatok</a></li>
+			<li><a href="egyeb">&nbsp;&nbsp;Egyebek</a></li>
             <li><a href="restauralasok">Restaurálások</a></li>
           </ul>
         </li>
@@ -75,7 +77,9 @@
       </ul>
     </div>
   </div>
+ 
 </nav>
+
 <?php
 	if (file_exists($page)) {
 		require_once($page);
