@@ -1,18 +1,17 @@
 <div class="container">
-     <hr/ class="trait_menu">
+     <hr class="trait_menu"/>
 <div class="row">
     <div class="col-sm-4">
        <img src="../img/csala.JPG" alt="Csala Ildiko" class="img-responsive">
     </div>
     <div class="col-sm-8">
-        <h1>Üdvözlöm a honlapomon!</h1>
+        <h1 class="margin_bottom_40">Üdvözlöm a honlapomon!</h1>
         <p class="text-justify">
-            1991-től  restaurálok -  fatáblára, vászonra, kartonra festett olajfestményeket és  falképeket. Ez alatt az idő alatt számos veszélyeztetett műtárgyat, műemléket  mentettem meg a pusztulástól,  a konzerválás és restaurálás nélkül ezekörökre elvesztek volna, de  a restaurálással  még az utókor számára is megmaradtak.
-<br/><br/>
-Jelenleg a Szépművészeti Múzeum restaurátoraként dolgozom.<br/><br/>
-A festő-restaurátor munkám mellett párhuzamosan képeket is festek műteremben és szabadban.<br/>
-Nagyszerű érzés nap mint nap úgy dolgozni a műtárgyakon és úgy alkotni, hogy azokat átmenthetem az utókor számára, s ezek a tárgyak szebbé, és élhetőbbé teszik számunkra a hétköznapjainkat és a  világot.
-        
+            Csala Ildikó vagyok, 1991-ben végeztem a Magyar Képzőművészeti Egyetem festő-restaurátor szakán. Jelenleg a Szépművészeti Múzeum főrestaurátoraként dolgozom.<br/><br/>
+1984 óta több száz műtárgyat, főleg fatáblára, vászonra, kartonra festett olajfestményeket, nagyméretű freskókat és akvarelleket állítottam helyre. Állandó munkám mellett galériák és magánszemélyek számára is végzek restaurálást.<br/><br/>
+Festő-restaurátori munkámmal párhuzamosan akvarelleket és olajfestményeket, alkalmanként grafikákat, gobelineket is készítek, amelyeket kiállításokon mutattam be.<br/><br/>
+Tagja vagyok a Képzőművészeti Alapnak, a Magyar Restaurátor Egyesületnek, a Magyar Vízfestők Társaságának, valamint az Altamira Egyesületnek.
+
         </p>
         
     </div>

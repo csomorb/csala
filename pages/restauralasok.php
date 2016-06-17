@@ -1,5 +1,6 @@
 <div class="container">
-<h2 class="text-center">Restauràlàsok</h2>
+	    <hr class="trait_menu"/>
+<h1 class="text-center">Restauràlàsok</h1>
 <?php 
 include('connect.php');
 // génération de chaque restauration

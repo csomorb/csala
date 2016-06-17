@@ -1,3 +1,3 @@
 <?php
-$GLOBAL['nb_categorie_ligne'] = 3; /* doit etre = à 2/3/4/6*/
+$GLOBAL['nb_categorie_ligne'] = 6; /* doit etre = ï¿½ 2/3/4/6*/
 ?>

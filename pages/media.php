@@ -1,5 +1,7 @@
 <div class="container">
+	    <hr class="trait_menu"/>
 	<h1 class="text-center">Média</h1>
+<iframe src="https://docs.google.com/document/d/1wttnA8WWDP_LF873dKItOcROKevlyufHszFvwC3PjBY/pub?embedded=true" width="100%" height="800px"></iframe>
 <?php
 include('connect.php');
 $reponse = $bdd->query('SELECT * FROM media ORDER BY datum DESC');

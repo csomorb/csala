@@ -1,4 +1,5 @@
-﻿<div class="container">
+<div class="container">
+	<hr class="trait_menu"/>
 <?php
 include('connect.php');
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -56,7 +57,7 @@ function isRecaptchaValid($code, $ip = null)
 ?>
 <h1 class="text-center">Vendégkönyv</h1>
 <script src="https://www.google.com/recaptcha/api.js?hl=hu" async defer></script>
-<a href="#" id="new_post"  class="no_decoration"><h3>Ùj bejegyzés</h3></a>
+<a href="#" id="new_post"  class="no_decoration"><h3>Új bejegyzés</h3></a>
 <div id="nv_post">
 <form role="form" action="vendegkonyv" method="post" accept-charset="UTF-8">
   <div class="form-group">

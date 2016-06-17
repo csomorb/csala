@@ -1,5 +1,6 @@
-﻿<div class="container">
-<h2 class="text-center">Portré</h2>
+<div class="container">
+   <hr class="trait_menu"/>
+<h1 class="text-center">Portré</h1>
 <?php 
 include("./pages/generate_galleri.php");
 echo generer_galleri(1);

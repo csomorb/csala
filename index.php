@@ -58,21 +58,21 @@
         <li class="dropdown  <?php if ($folder == "festmenyek" || $folder == "csendelet" || $folder == "onarckep" || $folder == "portre" || $folder == "verskep" || $folder == "tajkep" || $folder == "egyeb" || $folder == "restauralasok") echo "active";  ?>">
           <a class="dropdown-toggle" data-toggle="dropdown" href="munkaim">Munkáim<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="festmenyek">Festmények</a></li>
-            <li><a href="portre">&nbsp;&nbsp;Portrék</a></li>
-			<li><a href="csendelet">&nbsp;&nbsp;Csendéletek</a></li>
-			<li><a href="tajkep">&nbsp;&nbsp;Tájképek</a></li>
-			<li><a href="aktok">&nbsp;&nbsp;Aktok</a></li>
-			<li><a href="verskep">&nbsp;&nbsp;Versképek</a></li>
-			<li><a href="onarckep">&nbsp;&nbsp;Önarcképek</a></li>
-            <li><a href="onarckep">&nbsp;&nbsp;Másolatok</a></li>
-			<li><a href="egyeb">&nbsp;&nbsp;Egyebek</a></li>
             <li><a href="restauralasok">Restaurálások</a></li>
+            <li><a href="festmenyek">Festmények</a></li>
+            <li><a href="portre">&nbsp;&nbsp;&nbsp;&nbsp;Portrék</a></li>
+			<li><a href="csendelet">&nbsp;&nbsp;&nbsp;&nbsp;Csendéletek</a></li>
+			<li><a href="tajkep">&nbsp;&nbsp;&nbsp;&nbsp;Tájképek</a></li>
+			<li><a href="aktok">&nbsp;&nbsp;&nbsp;&nbsp;Aktok</a></li>
+			<li><a href="verskep">&nbsp;&nbsp;&nbsp;&nbsp;Versképek</a></li>
+			<li><a href="onarckep">&nbsp;&nbsp;&nbsp;&nbsp;Önarcképek</a></li>
+            <li><a href="masolat">&nbsp;&nbsp;&nbsp;&nbsp;Másolatok</a></li>
+			<li><a href="egyeb">&nbsp;&nbsp;&nbsp;&nbsp;Egyebek</a></li>
           </ul>
         </li>
+        <li <?php if ($folder != "kialitasok")  { echo "class='sliding-middle-out'"; } ?> ><a href="kialitasok" <?php if ($folder == "kialitasok") { echo "class='active'"; } ?> >Kiállítások</a></li>
+        <li <?php if ($folder != "media")  { echo "class='sliding-middle-out'"; } ?> ><a href="media" <?php if ($folder == "media") { echo "class='active'"; } ?> >Média</a></li>
         <li <?php if ($folder != "vendegkonyv")  { echo "class='sliding-middle-out'"; } ?> ><a  href="vendegkonyv" <?php if ($folder == "vendegkonyv") { echo "class='active'"; } ?> >Vendégkönyv</a></li>
-		<li <?php if ($folder != "media")  { echo "class='sliding-middle-out'"; } ?> ><a href="media" <?php if ($folder == "media") { echo "class='active'"; } ?> >Média</a></li>
-        <li <?php if ($folder != "kialitasok")  { echo "class='sliding-middle-out'"; } ?> ><a href="kialitasok" <?php if ($folder == "kialitasok") { echo "class='active'"; } ?> >Kiàlitások</a></li>
 		<li <?php if ($folder != "kapcsolat")  { echo "class='sliding-middle-out'"; } ?> ><a href="kapcsolat" <?php if ($folder == "kapcsolat") { echo "class='active'"; } ?> >Kapcsolat</a></li>
       </ul>
     </div>
@@ -88,5 +88,8 @@
         require_once("404.php");
     }
 ?>
+<footer class="container">
+	<p class="text-right"><small>Minden jog fenntarva © 2016<small></p>
+</footer>
 </body>
 </html>

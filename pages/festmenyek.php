@@ -1,9 +1,10 @@
-﻿<div class="container">
-<h1 class="text-center">Festmények</h1>
+<div class="container">
+	    <hr class="trait_menu"/>
+<h1 class="text-center margin_bottom_60">Festmények</h1>
 <?php
 include('connect.php');
 $i = 0;
-$reponse = $bdd->query('SELECT * FROM categorie');
+$reponse = $bdd->query('SELECT * FROM categorie ORDER BY ord');
 while ($donnees = $reponse->fetch()){
 	if($donnees['id'] < 7 || $donnees['id'] > 9){
 		if ($i % $GLOBAL['nb_categorie_ligne'] === 0)
@@ -16,7 +17,7 @@ while ($donnees = $reponse->fetch()){
 	?>
 		<a href="<?php echo $donnees['nom_lien']; ?>" class="no_decoration">
 		<img src="/img/<?php echo $image['nom']; ?>" class="img-responsive"/>
-		<h3><?php echo $donnees['nom_categorie']; ?></h3>
+		<h3 class="margin_bottom_40 margin_top_min"><?php echo $donnees['nom_categorie']; ?></h3>
 		</a>
 	<?php
 		echo "\t</div>\n";

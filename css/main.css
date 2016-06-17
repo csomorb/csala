@@ -15,10 +15,21 @@ body{
 	margin-bottom: 20px;
 }
 
+.margin_bottom_40{
+	margin-bottom: 40px;
+}
+
+.margin_bottom_60{
+	margin-bottom: 60px;
+}
+
 .text_right{
 	text-align: right;
 }
 
+.margin_top_min{
+	margin-top: 8px;
+}
 
 .videoWrapper {
 	position: relative;
@@ -75,7 +86,11 @@ li a{
 
 
 
-
+@media screen and (max-width: 768px) {
+	.trait_menu{
+		visibility:hidden;
+	}
+}
 
 @media screen and (min-width: 768px) {
 
@@ -95,7 +110,7 @@ li a{
 	}
 	.sliding-middle-out:hover:after {
 		width: 100%;
-		background: #ffe6e6;
+		background: rgba(255, 204, 204, 0.50);
 	}
 	
 	.active{
@@ -128,13 +143,15 @@ a{
 	color: #ffffff;
 }
 
+
+
 /*navbar*/
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
     background-color: #330000;
     border-color: white;
 }
 
-.dropdown-menu{
+.dropdown-menu, .dropdown-menu:focus, .dropdown-menu:active {
 	background-color: rgba(51, 0, 0, 0.73);
     border-color: rgba(51, 0, 0, 0.73);
 }

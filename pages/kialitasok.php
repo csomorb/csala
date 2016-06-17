@@ -1,6 +1,7 @@
 <div class="container">
+      <hr class="trait_menu"/>
     <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDAKE3DBNvCqgQ-Z-P-eIUr36JNQRbldmQ"></script>
-    <h2 class="text-center">Kàlitàsok</h2>    
+    <h1 class="text-center">Kàlitàsok</h1>    
     <?php
 include('connect.php');
 $reponse = $bdd->query('SELECT * FROM kialitas ORDER BY date_deb DESC');
