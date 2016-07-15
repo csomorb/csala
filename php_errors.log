@@ -137,3 +137,18 @@ Stack trace:
 #1 /home/ubuntu/workspace/szerkesztes/kialitas_h.php(3): include('/home/ubuntu/wo...')
 #2 {main}
   thrown in /home/ubuntu/workspace/szerkesztes/upload_photo.php on line 33
+[14-Jul-2016 15:14:25 UTC] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ubuntu/workspace/szerkesztes/asido/class.driver.php on line 239
+[14-Jul-2016 15:14:26 UTC] PHP Stack trace:
+[14-Jul-2016 15:14:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/portre_kh.php:0
+[14-Jul-2016 15:14:26 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/portre_kh.php:3
+[14-Jul-2016 15:14:26 UTC] PHP   3. include() /home/ubuntu/workspace/szerkesztes/upload_photo.php:20
+[14-Jul-2016 15:15:27 UTC] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ubuntu/workspace/szerkesztes/asido/class.driver.php on line 239
+[14-Jul-2016 15:15:27 UTC] PHP Stack trace:
+[14-Jul-2016 15:15:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/portre_kh.php:0
+[14-Jul-2016 15:15:27 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/portre_kh.php:3
+[14-Jul-2016 15:15:27 UTC] PHP   3. include() /home/ubuntu/workspace/szerkesztes/upload_photo.php:20
+[14-Jul-2016 15:16:32 UTC] PHP Fatal error:  Call-time pass-by-reference has been removed in /home/ubuntu/workspace/szerkesztes/asido/class.driver.php on line 239
+[14-Jul-2016 15:16:32 UTC] PHP Stack trace:
+[14-Jul-2016 15:16:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/szerkesztes/portre_kh.php:0
+[14-Jul-2016 15:16:32 UTC] PHP   2. include() /home/ubuntu/workspace/szerkesztes/portre_kh.php:3
+[14-Jul-2016 15:16:32 UTC] PHP   3. include() /home/ubuntu/workspace/szerkesztes/upload_photo.php:20

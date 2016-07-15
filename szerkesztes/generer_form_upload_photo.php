@@ -1,8 +1,12 @@
 <?php function generer_upload_photo($alt,$cat){?> 
  <form role="form" action="<?php echo $_SERVER["PHP_SELF"];?>" method="post" accept-charset="UTF-8" enctype="multipart/form-data">
   <div class="form-group">
-    <label for="input-id">Kép:</label>
+    <label for="input-id">Kép 1200px:</label>
     <input id="input-id" type="file" class="file" accept="image/*" data-preview-file-type="text" required name="photo">
+  </div>
+  <div class="form-group">
+    <label for="input-id2">Kép 250px:</label>
+    <input id="input-id2" type="file" class="file" accept="image/*" data-preview-file-type="text" required name="photo2">
   </div>
   <div class="form-group">
     <label for="cim">Kép cim:</label>
@@ -19,6 +23,12 @@
 <br/><br/>
 <script>
 $("#input-id").fileinput({
+	uploadLabel: "",
+	removeLabel: "Torlés",
+	browseLabel: "Kép vàlasztàs",
+	uploadClass: "display-none"
+});
+$("#input-id2").fileinput({
 	uploadLabel: "",
 	removeLabel: "Torlés",
 	browseLabel: "Kép vàlasztàs",

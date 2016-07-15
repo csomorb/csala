@@ -40,7 +40,9 @@
 	<script src="./script/galleri.js"></script>
 	<link rel="stylesheet" href="./css/gallery.css">
 	<!-- fin Galery **************************************************************-->	
-	
+	<meta name="author" content="Csomor Barnabas">
+	<meta name="keywords" content="csala,ildiko,restaurator,muvesz,festmenyek,aktok,csendelet,tajkep">
+	<meta name="description" content="Csala Ildikó festő-restaurátor honlapja">
 </head>
 <body  oncontextmenu="return false">
 

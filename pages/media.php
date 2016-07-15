@@ -1,6 +1,6 @@
 <div class="container">
 	    <hr class="trait_menu"/>
-	<h1 class="text-center">Média</h1>
+	<h1 class="text-center margin_bottom_60">Média</h1>
 <iframe src="https://docs.google.com/document/d/1wttnA8WWDP_LF873dKItOcROKevlyufHszFvwC3PjBY/pub?embedded=true" width="100%" height="800px"></iframe>
 <?php
 include('connect.php');
